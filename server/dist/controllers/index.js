@@ -1,0 +1,24 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Delete = exports.Edit = exports.Add = exports.GetById = exports.GetAll = exports.resetPassword = exports.forgotPassword = exports.userPanel = exports.LoginUser = exports.RegisterUser = void 0;
+// USER CONTROLLERS
+var register_1 = require("./User/register");
+Object.defineProperty(exports, "RegisterUser", { enumerable: true, get: function () { return register_1.RegisterUser; } });
+var login_1 = require("./User/login");
+Object.defineProperty(exports, "LoginUser", { enumerable: true, get: function () { return login_1.LoginUser; } });
+var panel_1 = require("./User/panel");
+Object.defineProperty(exports, "userPanel", { enumerable: true, get: function () { return panel_1.userPanel; } });
+var forgotPassword_1 = require("./User/forgotPassword");
+Object.defineProperty(exports, "forgotPassword", { enumerable: true, get: function () { return forgotPassword_1.forgotPassword; } });
+var resetPassword_1 = require("./User/resetPassword");
+Object.defineProperty(exports, "resetPassword", { enumerable: true, get: function () { return resetPassword_1.resetPassword; } });
+var filmRental_1 = require("./FilmRental/filmRental");
+Object.defineProperty(exports, "GetAll", { enumerable: true, get: function () { return filmRental_1.GetAll; } });
+var filmRental_2 = require("./FilmRental/filmRental");
+Object.defineProperty(exports, "GetById", { enumerable: true, get: function () { return filmRental_2.GetById; } });
+var filmRental_3 = require("./FilmRental/filmRental");
+Object.defineProperty(exports, "Add", { enumerable: true, get: function () { return filmRental_3.Add; } });
+var filmRental_4 = require("./FilmRental/filmRental");
+Object.defineProperty(exports, "Edit", { enumerable: true, get: function () { return filmRental_4.Edit; } });
+var filmRental_5 = require("./FilmRental/filmRental");
+Object.defineProperty(exports, "Delete", { enumerable: true, get: function () { return filmRental_5.Delete; } });
